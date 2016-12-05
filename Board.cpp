@@ -71,7 +71,6 @@ void Board::backTrace(int k){
     if (k > _size) {
         cout << "解法" << ++_sum << "：";
         for (int i = 1; i <= _size; ++i) {
-            //cout << _state[i] << " ";
             _space[i][_state[i]] = 'X';
         }
         cout << endl;

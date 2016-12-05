@@ -10,6 +10,7 @@
 #include "Board.hpp"
 int main(int argc, const char * argv[]) {
     int size;
+    cout << "现有N*N的棋盘，放入N个皇后，要求所有皇后不在同一行，列和同一斜线上" << endl;
     cout << "请输入皇后个数：";
     cin >> size;
     Board chess(size);
